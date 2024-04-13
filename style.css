@@ -1,0 +1,157 @@
+*{
+	margin: 0;
+	padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+body ,html{
+    background-color: pink;
+}
+#nav{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border-bottom: 2px solid black ;
+}
+#header{
+    text-align: center;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+#right-header-links ,li{
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    align-items: center;
+    margin-right: 40px;
+}
+#right-header{
+    width: 70%;
+}
+.links{
+    padding:20px 40px;
+    text-decoration: none;
+    color:black;
+    font-size: 30px;
+    font-style: italic;
+}
+#sale{
+    height:250px;
+    width: 250px;
+}
+#sale img{
+    height: 250px;
+    width: 250px;
+    object-fit: cover;
+}
+#scrolling-text,#scrolling-texts {
+    display: flex;
+    font-size: 22px;
+    animation: scroll 7s linear infinite;
+}
+  @keyframes scroll {
+    0% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+#arrival{
+    text-align: center;
+    font-size: 33px;
+    font-weight: bold;
+    font-style: italic;
+}
+#products{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+#Content-1{
+    height:450px;
+    width: 300px;
+    border: 2px solid black;
+    margin-top: 25px;
+    border-radius: 5px;
+    background-color: white;
+}  
+#photo img{
+    width:100%;
+    height: 350px;
+    object-fit: cover;
+    border-bottom: 2px solid black;
+}
+#descreption {
+    text-align: center;
+    font-size: 23px;
+    
+}
+#descreption #a{
+    color: #ff8fab;
+    text-decoration: none;
+}
+footer{
+    margin-top: 30px;
+    text-align: center;
+    padding-bottom: 20px;
+    position: relative;
+    bottom: 20px;
+}
+#btn{
+    color:black;
+    border: none;
+    background-color: transparent;
+    position: relative;
+    top:15px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: .2s all ease-in-out;
+}
+#btn:hover{
+    font-style: italic;
+    color: #ff8fab;
+}
+#travel{
+    color:black;
+    border: none;
+    background-color: transparent;
+    position: relative;
+    top:15px;
+    font-size: 20px;
+    cursor: pointer;
+    text-decoration: none;
+}
+#goback{
+    text-align: center;
+    padding-top: 10px;
+}
+#goback a{
+    font-size: 20px;
+    text-decoration: none;
+    color:#ff8fab;
+}
+#goback a:hover{
+    color:black;
+}
+
+#vid{
+    height: 250px;
+    width: 250px;
+    padding: 0;
+    border-radius: 50%;
+    margin: 0;
+}
+#logoimg{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin: 0 -10px;
+}
+#logoheader{
+    font-size: 30px;
+    margin: 0 20px;
+}

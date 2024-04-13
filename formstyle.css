@@ -1,0 +1,44 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Poppins", sans-serif;
+    background-color: #d9d9f3;
+}
+#header{
+    text-align: center;
+}
+#logoimg{
+    border-radius: 50%;
+}
+#sign{
+    font-size: 28px;
+}
+#btn{
+    text-align: center;
+}
+#table-content{
+    border: 2px solid black;
+    border-radius: 10px;
+    border-spacing: 0 20px;
+    padding: 10px;
+    background-color: #d9d9f3;
+}
+#sel{
+    padding-left: 10px;
+}
+#sub{
+    border: none;
+    background-color: transparent;
+    font-size: 24px;
+    cursor: pointer;
+}
+td input{
+    border: 2px solid black;
+    border-radius: 10px;
+}
+label{
+    background-color: #d9d9f3;
+}
+tr th,td,a{
+    background-color: #d9d9f3;
+}
