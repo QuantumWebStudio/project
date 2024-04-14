@@ -2,7 +2,9 @@
     margin: 0px;
     padding: 0px;
     font-family: "Poppins", sans-serif;
-    background-color: #d9d9f3;
+}
+html,body{
+    background-color: #FFCFF1;
 }
 #header{
     text-align: center;
@@ -21,7 +23,6 @@
     border-radius: 10px;
     border-spacing: 0 20px;
     padding: 10px;
-    background-color: #d9d9f3;
 }
 #sel{
     padding-left: 10px;
@@ -35,10 +36,4 @@
 td input{
     border: 2px solid black;
     border-radius: 10px;
-}
-label{
-    background-color: #d9d9f3;
-}
-tr th,td,a{
-    background-color: #d9d9f3;
 }

@@ -4,7 +4,7 @@
     font-family: "Poppins", sans-serif;
 }
 body ,html{
-    background-color: pink;
+    background-color: #ffd8f0;
 }
 #nav{
     display: flex;
